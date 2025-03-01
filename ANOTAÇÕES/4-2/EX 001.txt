@@ -1,0 +1,5 @@
+TAGS (OU MARCAS)
+        
+        h1 = Título
+        hr = linha horizontal
+        p = parágrafo 

@@ -1,0 +1,9 @@
+CAPÍTULO 6
+
+Para usar um favicon no seu site, você precisa ter o arquivo do ícone, que geralmente está no formato ICO. Se quiser baixar alguns ícones prontos, recomendo o site IconArchive.
+
+https://www.iconarchive.com/
+
+Se você tiver o dom e muita paciência, pode desenhar seu favicon no site favicon.cc. 
+
+https://www.favicon.cc/

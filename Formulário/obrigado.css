@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif, Arial, Verdana, Helvetica, sans-serif;
+    background-color: #F5F5F5 ;
+    margin-top: 22em;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:  #007BFF;
+}
+
+a:hover {
+    color: white;
+    background-color: #007BFF;
+    transition: 0.2s;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 22em;
+}

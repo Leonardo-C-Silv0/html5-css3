@@ -1,0 +1,28 @@
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: blue;
+}
+
+/*
+    H1 (TAG) é um seletor
+    Tudo dentro de um SELETOR é uma declaração
+
+    FONT FAMILY = Familia de fonte
+    FONT SIZE = Tamanho da fonte
+    COLOR = Cor
+    pt = ponto
+    px = pixel
+
+    TODA DECLARAÇAO TEM PONTO E VIRGULA NO FINAL (;)
+
+    EXEMPLO
+    
+    color = tudo declarado é uma propriedade
+    blue = é chamado de valor 
+
+ /
+
+
+

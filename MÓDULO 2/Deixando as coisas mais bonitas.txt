@@ -1,0 +1,1 @@
+Fundamentos do design, psicologia das cores, tipografia, elementos CSS, Modelo de caixas, wireframe, reponsividade.

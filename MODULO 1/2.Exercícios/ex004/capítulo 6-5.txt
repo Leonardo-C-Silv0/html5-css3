@@ -1,0 +1,12 @@
+ Explorando HTML e CSS para Desenvolvimento Web
+
+Atualmente, estou aprofundando meus conhecimentos em HTML e CSS, dois pilares fundamentais do desenvolvimento web. Através do estudo e prática, estou adquirindo habilidades para criar páginas web atraentes e funcionais, focando na experiência do usuário e na responsividade.
+
+🔍 O que estou aprendendo:
+
+Estruturação de Conteúdo: Aprendendo a usar HTML para criar uma estrutura semântica e acessível em páginas web.
+Estilo e Layout: Utilizando CSS para aprimorar a apresentação visual, aplicando técnicas de design moderno e responsivo.
+Melhores Práticas: Compreendendo a importância da otimização e da manutenção do código para garantir uma navegação fluida e intuitiva.
+Estou animado para aplicar esses conhecimentos em projetos práticos e contribuir para o desenvolvimento de soluções web de qualidade.
+
+🔗 Vamos conectar! Estou aberto a trocas de experiências e oportunidades na área de desenvolvimento web.

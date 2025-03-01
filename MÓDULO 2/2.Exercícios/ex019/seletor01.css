@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+    Aqui temos id e class
+
+    O id usa (#).
+
+    A class usa (.).
+
+    
+
+*/
+
+body {
+    background-color: #9FE6E6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #008080;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #005C5C;
+    color: antiquewhite;
+}
+
+h2 {
+    color: #009E9E;
+}
+
+.basico {
+    color: coral;
+    font-weight: bold;
+}
+
+.intermediario {
+    color: darkslategrey;
+}
+
+.avancado {
+    color: darkolivegreen;
+}
+
+.destaque {
+    background-color: rgba(182, 182, 29, 0.507);
+}

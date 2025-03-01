@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title> 
+    <style>
+
+        /*Título - Uma box-level*/
+        h1 {
+
+
+            height: 300px;
+            width: 300px;
+            background-color: lightcyan;
+            /*Use a ferramenta de devtools, para ver visualmente*/
+
+            /* Isso é uma borda de uma box*/
+            border-width: 10px;
+            border-style: solid;
+            border-color:lightseagreen;
+            /* Border em uma shorthand*/
+
+            border: 10px solid lightseagreen; /* largura(width) estilo(style) cor(color)  */
+
+
+            /*Padding de uma box*/
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*Padding em uma shorthand*/
+             padding: 10px 10px 10px 10px; /*cima(top) direita(right) baixo(bottom) esquerda(left)*/
+
+
+            /*Isso é um margin*/
+
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            margin: 10px; /* Se colocar somente um valor significa que, cima(top) direita(right) baixo(bottom) esquerda(left), vão ser do mesmo valor.*/
+
+            margin: 10px 20px; /* Se colocar somente dois valores significa que, cima(top) e baixo(bottom) vão ser o valor de 10px e a direita(right) e a esquerda(left) vão ser do mesmo valor de 20px.*/
+
+
+            /*Isso é um outline*/
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: salmon;
+            /*outline em uma shorthand*/
+
+            outline: 10px dashed salmon; /* largura(width) estilo(style) cor(color)  */
+        }
+
+
+        /*Âncoras (Links) - Um inline-level*/
+        a {
+            /* Isso é uma borda de uma box*/
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkcyan;
+
+            /*Padding de uma box*/
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            text-decoration: none;
+            /*remova e o block e coloque o inline que é um padrão*/
+            display: block;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

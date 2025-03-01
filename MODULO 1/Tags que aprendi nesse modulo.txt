@@ -1,0 +1,16 @@
+TAGS
+
+h1 = Título
+
+hr = Linha Horizontal
+
+p = Parágrafo
+
+br = Quebra de Linha
+
+img = para adicionar uma imagem no site
+
+link:favicon = adicionar ícone na aba do site
+
+ =
+

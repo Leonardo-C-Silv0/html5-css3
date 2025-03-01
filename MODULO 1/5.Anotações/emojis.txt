@@ -1,0 +1,9 @@
+CAPÍTULO 5
+
+Inserindo Emojis
+
+Outra coisa que você pode adicionar às suas páginas são os emojis, onde cada
+símbolo possui um código Unicode. Para uma pesquisa mais precisa e atualizada,
+acesse o site da 
+
+emojipedia.org.

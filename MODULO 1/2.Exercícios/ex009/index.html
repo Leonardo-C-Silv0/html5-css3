@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    
+    <p>São listas criadas com a TAG &lt;ol&gt; que tem o nome de ordered lists (Listas Ordenadas)que tem um padrão de organização. 
+    <br>Dentro dela tambem temos a TAG &lt;li&gt; que tem o nome de list item (Listar Item) para indentificar cada item da lista. 
+    </p>
+    <p>Usando o parâmetro <code>type</code>, configuramos o tipo de marcador da lista: 1, A, a, I, i. </p>
+    <p>Usando o parâmetro <code>start</code>, pode in dicar o início da contagem
+        <br> Por exemplo, a tag <code>&lt;ol type=“1” start = “5”&gt;</code> vai gerar itens numerados como 5. 
+        <br>5, 6, 7, 8, … 
+    </p>
+
+        <ol type="I"> 
+            <li>Acordar
+            <li>Tomar Café
+            <li>Escovar os Dentes
+            <li>Ir para a faculdade</li>
+            <li>Almoçãr</li>
+        </ol>
+
+    <h2>Listas Não Ordenadas</h2>
+
+        <p>São listas criadas com a TAG &lt;ul&gt; que tem o nome de unordered lists (Listas Não Ordenadas), ela não possui uma ordem, pode ser criada da maneira que quiser.</p>
+        <p>Dentro dela tamvém possui a TAG &lt;li&gt;./p>
+        <p>Usando o parâmetro <code>type</code> podemos escolher um marcador, com os seguintes valores.</p>
+        <p>disc - padrão. Uma bola preta totalmente pintada
+        <br>circle - Uma bola com uma borda preta e sem preenchimento
+        <br>square - Um pequeno quadrado preto totalmente pintado
+        </p>
+        
+
+        <ul type="square"> <!-- tipos : disc, circle e square-->
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Arroz</li>
+        </ul>
+
+        <h2>Mistura de Lista</h2>
+
+        <ol>
+            <li>Super Nintendo</li>
+                <ol>
+                    <li>Super Mario</li>
+                        <ul type="circle">
+                            <li>Super Mario World</li>
+                            <li>Super Mario Bros 3</li>
+                            <li>Super Mario World 2: Yoshi's Insland</li>
+                        </ul>
+                    <li>Donkey Kong</li>
+                    <li>Sunset Riders</li>    
+                </ol>
+        </ol>
+
+        <h2>Lista de Definição</h2>
+
+        <dl>
+            <dt>HTML</dt>
+                <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+                        
+            <dt>CSS</dt>
+                <dd>Linguagem de marcação para a especificação de estilos em sites.</dd>
+             
+            <dt>JavaScript</dt>
+                <dd>Linguagem de programação para criar interatividade em sites.</dd>    
+        </dl>
+</body>
+</html>

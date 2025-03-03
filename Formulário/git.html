@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="icons/github.png" type="image/x-icon">
     <link rel="stylesheet" href="obrigado.css">
+    <link rel="stylesheet" href="style.css">
     <title>Obrigado!</title>
 </head>
 <body>
@@ -16,6 +17,40 @@
     <footer>
         <p>Site criado por Leonardo Silva &copy;</p>
     </footer>   
+
+    <script>
+
+        const themeToggle = document.getElementById ('theme-toggle');
+        
+        // Função para alternar(toggle) tema.
+        
+        function toggleTheme () {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            if (currentTheme == 'dark') {
+                document.documentElement.setAttribute('data-theme', 'light');
+                localStorage.setItem('theme', 'light');
+            } 
+            else {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+        
+        // Verifique o tema salvo no Armazenamento Local (localStorage)
+        
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            themeToggle.checked = true; // Certifique-se de que a chave(switch) esteja marcada (checkbox) para modo DARK
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            themeToggle.checked = false; // Certifique-se de que a chave(switch) esteja desmarcada (check box desmarcada) para o modo de LIGHT
+        }
+        
+        
+        themeToggle.addEventListener('change', toggleTheme);
+        
+            </script>
 
 </body>
 </html>

@@ -10,6 +10,16 @@
 <body>
     <header>
         <h1>Bem-Vindo</h1>
+
+        <p> Mude o Tema </p>
+
+        <div class="container">
+            <label class="theme-switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+    
     </header>
 
     <main>
@@ -27,6 +37,7 @@
                 <p class="project"><a href="Formulário/formulario.html">👉 Acesse o formulário aqui!</a></p>
     </main>
 
+    
     <footer>
         <p>Site criado por Leonardo Silva &copy;</p>
         <div>
@@ -38,5 +49,39 @@
         <p id="obs">Esse site foi criado para ser um teste rápido, mas de qualquer forma dê seu feedback!</p>
     </footer>
     
+    <script>
+
+const themeToggle = document.getElementById ('theme-toggle');
+
+// Função para alternar(toggle) tema.
+
+function toggleTheme () {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    if (currentTheme == 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+    } 
+    else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+}
+
+// Verifique o tema salvo no Armazenamento Local (localStorage)
+
+const savedTheme = localStorage.getItem("theme");
+if (savedTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    themeToggle.checked = true; // Certifique-se de que a chave(switch) esteja marcada (checkbox) para modo DARK
+} else {
+    document.documentElement.setAttribute('data-theme', 'light');
+    themeToggle.checked = false; // Certifique-se de que a chave(switch) esteja desmarcada (check box desmarcada) para o modo de LIGHT
+}
+
+
+themeToggle.addEventListener('change', toggleTheme);
+
+    </script>
+
 </body>
 </html>

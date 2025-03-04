@@ -39,6 +39,7 @@ h1::before {
     border-radius: 5px ;
     margin-bottom: 30px;
     padding: 2px;
+    max-width: 32rem;
 }
 
 h2::before  {

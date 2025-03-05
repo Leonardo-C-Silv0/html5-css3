@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+    background-image: url(/img/papel-envelhecido.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #f5e1a4;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 20px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 20px; 
+}
+
+header a , footer a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkred;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    text-align: center;
+}
+
+section.normal {
+    background-color: lightgray;
+}
+
+section.image {
+    background-color: antiquewhite;
+    color: white;
+
+}
+
+section.image > p {
+
+    display: inline-block;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+main {
+    background-image: url(/img/papelo-rasgado.png);
+    border-radius: 0px;
+    
+    margin: 10px;
+    padding: 20px;
+
+    
+    /* efeito de borda */
+     
+    border: 5px solid black;
+    box-shadow: 5px 5px 0px black;
+}  
+
+
+section {
+    margin: auto;
+    
+}
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}

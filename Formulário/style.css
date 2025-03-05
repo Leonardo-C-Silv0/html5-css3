@@ -43,7 +43,7 @@ header h1 {
 header p {
     padding-top: 15px;
     text-align: center;
-
+    
 }
 
 main {
@@ -75,7 +75,7 @@ main p#p1 {
 }
 
 main p {
-    line-height: 2em;
+    line-height: 3em;
 }
 
 main .project {

@@ -40,7 +40,7 @@ header > p {
 }
 
 header a , footer a {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -70,7 +70,7 @@ section {
     font-family: var(--fonte-0);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 18px;
 
     
 }
@@ -98,7 +98,7 @@ section.image {
 }
 
 section.image > p {
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
     text-shadow: 2px 2px 0px black;
     background-color: rgba(0, 0, 0, 0.486);

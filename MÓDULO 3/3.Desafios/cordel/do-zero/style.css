@@ -17,13 +17,12 @@ html, body {
 }
 
 body {
-    background-image: url(/img/papel-envelhecido.jpg);
+    background-color: white;
     background-size: cover;
 }
 
 header {
-    color: white;
-    text-shadow: 2px 2px 0px black;
+    color: black;
     text-align: center;
     font-family: var(--fonte-0);
     text-transform: uppercase;
@@ -71,20 +70,20 @@ section {
     font-family: var(--fonte-0);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 4vw;
 
     
 }
 
 section > p {
     padding-bottom: 2em;    
-    text-shadow: 2px 2px 0px black;
+    
     
 }
 
 section.normal {
     background-color: transparent;
-    color: white;
+    color: black;
 
 }
 
@@ -101,6 +100,7 @@ section.image {
 section.image > p {
     padding: 20px;
     display: inline-block;
+    text-shadow: 2px 2px 0px black;
     background-color: rgba(0, 0, 0, 0.486);
 
 }
@@ -118,11 +118,10 @@ section#img2 {
 
 
 footer {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 50px;
     padding: 30px;
 
-    text-shadow: 2px 2px 0px black;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 }
